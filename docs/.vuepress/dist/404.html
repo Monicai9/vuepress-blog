@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/logo.jpg"><title>吃七颗栗子</title><meta name="description" content="穆瑾轩测试网页">
+    <link rel="modulepreload" href="/assets/app.a3c6ed61.js"><link rel="modulepreload" href="/assets/404.html.9cab6445.js"><link rel="modulepreload" href="/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/assets/index.html.7fabe538.js"><link rel="prefetch" href="/assets/guide.html.1e8cf420.js"><link rel="prefetch" href="/assets/index.html.a24bc3b6.js"><link rel="prefetch" href="/assets/guide.html.5edde14b.js"><link rel="prefetch" href="/assets/404.1c7c7f76.js"><link rel="prefetch" href="/assets/Layout.10804dc7.js">
+    <link rel="stylesheet" href="/assets/style.f4d22aab.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.a3c6ed61.js" defer></script>
+  </body>
+</html>
