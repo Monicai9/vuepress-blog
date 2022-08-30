@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5d7259d4","path":"/guide.html","title":"","lang":"en-US","frontmatter":{"sidebar":"auto"},"excerpt":"","headers":[],"git":{"updatedTime":1661762416000,"contributors":[{"name":"Gaoqi","email":"qi@qideMacBook-Pro.local","commits":1}]},"filePathRelative":"guide.md"}');export{e as data};

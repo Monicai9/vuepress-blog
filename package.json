@@ -4,6 +4,8 @@
   "description": "博客Plog",
   "main": "index.js",
   "license": "MIT",
+  "author": "latiao",
+  "keywords": [],
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
@@ -11,5 +13,12 @@
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.49"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monicai9/vuepress-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/linxiaodi/vuepress-blog/issues"
   }
 }
